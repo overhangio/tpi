@@ -1,0 +1,8 @@
+- name: codejail
+  src: -e git+https://github.com/edunext/tutor-contrib-codejail@v15.0.0#egg=tutor-contrib-codejail
+  url: https://github.com/eduNEXT/tutor-contrib-codejail/
+  author: eduNEXT
+  maintainer: eduNEXT
+  description: |
+    Tutor plugin to enable execution of untrusted code in secure sandboxes.
+    In particular, this plugin is required to run Python-evaluated input XBlocks.

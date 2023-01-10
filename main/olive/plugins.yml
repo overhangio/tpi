@@ -1,0 +1,99 @@
+# This is the index for all Tutor plugins that are officially maintained by Overhang.IO.
+# It is available at the following location: https://overhang.io/tutor/main/olive/plugins.yml
+# It can be modified by opening a pull request on the following repository: https://github.com/overhangio/tutor-plugins-index/
+
+- name: android
+  src: tutor-android>=15.0.0,<16.0.0
+  url: https://github.com/overhangio/tutor-android
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Build an Android mobile application for your Open edX platform.
+
+- name: discovery
+  src: tutor-discovery>=15.0.0,<16.0.0
+  url: https://github.com/overhangio/tutor-discovery
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Integrate the Open edX Course Discovery application.
+    This plugins makes it easy to install the course-discovery application
+    (https://github.com/openedx/course-discovery) in your Open edX environment.
+
+- name: ecommerce
+  src: tutor-ecommerce>=15.0.0,<16.0.0
+  url: https://github.com/overhangio/tutor-ecommerce
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    E-commerce plugin to sell course products on Open edX.
+    This plugins makes it easy to install the ecommerce application
+    (https://github.com/openedx/ecommerce) in your Open edX environment. Note that this
+    plugin depends on the discovery and the MFE plugins, which must also be enabled.
+
+- name: forum
+  src: tutor-forum>=15.0.0,<16.0.0
+  url: https://github.com/overhangio/tutor-forum
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Zaat.dev <ghassan@zaat.dev>
+  description: |
+    Add discussion forum to your Open edX platform.
+
+- name: indigo
+  src: tutor-indigo>=15.0.0,<16.0.0
+  url: https://github.com/overhangio/tutor-indigo
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    A beautiful, blue theme for Open edX.
+
+- name: license
+  src: tutor-ecommerce>=15.0.0,<16.0.0
+  url: https://pypi.org/project/tutor-license
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Tutor plugin to install premium plugins from the Wizard Edition.
+
+- name: mfe
+  src: tutor-mfe>=15.0.0,<16.0.0
+  url: https://github.com/overhangio/tutor-mfe
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Easy integration of custom microfrontends with your Open edX platform.
+    Microfrontends form the backbone of Open edX. Thus, this plugin is required by most Open edX installations.
+
+- name: minio
+  src: tutor-minio>=15.0.0,<16.0.0
+  url: https://github.com/overhangio/tutor-minio
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Scalable object storage for Open edX.
+    This plugins is pretty much a requirement to run Open edX on Kubernetes.
+
+- name: notes
+  src: tutor-notes>=15.0.0,<16.0.0
+  url: https://github.com/overhangio/tutor-notes
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: eduNEXT
+  description: |
+    Add student notes to the Open edX courseware.
+
+- name: webui
+  src: tutor-webui>=15.0.0,<16.0.0
+  url: https://github.com/overhangio/tutor-webui
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Manage your Tutor-powered Open edX installation from the browser.
+
+- name: xqueue
+  src: tutor-xqueue>=15.0.0,<16.0.0
+  url: https://github.com/overhangio/tutor-xqueue
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: eduNEXT
+  description: |
+    Xqueue external grading system for your Open edX platform.
+
