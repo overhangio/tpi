@@ -32,7 +32,7 @@ This is the index for the free, open source plugins that are officially maintain
 
 ### <a name="wizard"></a>wizard
 
-This index contains references to the premium plugins from the commercial Tutor [Wizard Edition](https://overhang.io/tutor/wizardedition).  A valid license number is required to install these plugins. You will also need the [license plugin](https://pypi.org/project/tutor-license/), which can be installed from the "main" index with: `tutor plugins install license`.
+This index contains references to the premium plugins from the commercial Tutor [Wizard Edition](https://overhang.io/tutor/wizardedition).  A valid license ID is required to install these plugins. You will also need the [license plugin](https://pypi.org/project/tutor-license/), which can be installed from the "main" index with: `tutor plugins install license`.
 
 ### <a name="contrib"></a>contrib
 
