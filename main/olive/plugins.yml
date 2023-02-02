@@ -1,6 +1,6 @@
 # This is the index for all Tutor plugins that are officially maintained by Overhang.IO.
 # It is available at the following location: https://overhang.io/tutor/main/olive/plugins.yml
-# It can be modified by opening a pull request on the following repository: https://github.com/overhangio/tutor-plugins-index/
+# It can be modified by opening a pull request on the following repository: https://github.com/overhangio/tpi/
 
 - name: android
   src: tutor-android>=15.0.0,<16.0.0

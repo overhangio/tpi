@@ -1,6 +1,6 @@
-# Tutor official plugin indexes
+# TPI: Tutor Plugin Indexes
 
-This is the official repository for [Tutor](https://docs.tutor.overhang.io/) plugin indexes. A Tutor plugin index is similar to the Python Package index ([PyPi](https://pypi.org/)) or an `apt` repository: it is a reference to many plugins that can then be easily installed and enabled by Tutor.
+This is the repository for the official [Tutor](https://docs.tutor.overhang.io/) plugin indexes maintained by [Overhang.IO](https://overhang.io). A Tutor plugin index is similar to the Python Package index ([PyPi](https://pypi.org/)) or an `apt` repository: it is a reference to many plugins that can then be easily installed and enabled by Tutor.
 
 For more information about plugin indexes, check out the [Tutor official documentation](https://docs.tutor.overhang.io/reference/indexes.html).
 
