@@ -1,0 +1,99 @@
+# This is the index for all Tutor plugins that are officially maintained by Overhang.IO.
+# It is available at the following location: https://overhang.io/tutor/main/olive/plugins.yml
+# It can be modified by opening a pull request on the following repository: https://github.com/overhangio/tpi/
+
+- name: android
+  src: -e git+https://github.com/overhangio/tutor-android.git@nightly#egg=tutor-android
+  url: https://github.com/overhangio/tutor-android
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Build an Android mobile application for your Open edX platform.
+
+- name: discovery
+  src: -e git+https://github.com/overhangio/tutor-discovery.git@nightly#egg=tutor-discovery
+  url: https://github.com/overhangio/tutor-discovery
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Integrate the Open edX Course Discovery application.
+    This plugins makes it easy to install the course-discovery application
+    (https://github.com/openedx/course-discovery) in your Open edX environment.
+
+- name: ecommerce
+  src: -e git+https://github.com/overhangio/tutor-ecommerce.git@nightly#egg=tutor-ecommerce
+  url: https://github.com/overhangio/tutor-ecommerce
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    E-commerce plugin to sell course products on Open edX.
+    This plugins makes it easy to install the ecommerce application
+    (https://github.com/openedx/ecommerce) in your Open edX environment. Note that this
+    plugin depends on the discovery and the MFE plugins, which must also be enabled.
+
+- name: forum
+  src: -e git+https://github.com/overhangio/tutor-forum.git@nightly#egg=tutor-forum
+  url: https://github.com/overhangio/tutor-forum
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Zaat.dev <ghassan@zaat.dev>
+  description: |
+    Add discussion forum to your Open edX platform.
+
+- name: indigo
+  src: -e git+https://github.com/overhangio/tutor-indigo.git@nightly#egg=tutor-indigo
+  url: https://github.com/overhangio/tutor-indigo
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    A beautiful, blue theme for Open edX.
+
+- name: license
+  src: -e git+https://github.com/overhangio/tutor-ecommerce.git@nightly#egg=tutor-ecommerce
+  url: https://pypi.org/project/tutor-license
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Tutor plugin to install premium plugins from the Wizard Edition.
+
+- name: mfe
+  src: -e git+https://github.com/overhangio/tutor-mfe.git@nightly#egg=tutor-mfe
+  url: https://github.com/overhangio/tutor-mfe
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Easy integration of custom microfrontends with your Open edX platform.
+    Microfrontends form the backbone of Open edX. Thus, this plugin is required by most Open edX installations.
+
+- name: minio
+  src: -e git+https://github.com/overhangio/tutor-minio.git@nightly#egg=tutor-minio
+  url: https://github.com/overhangio/tutor-minio
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Scalable object storage for Open edX.
+    This plugins is pretty much a requirement to run Open edX on Kubernetes.
+
+- name: notes
+  src: -e git+https://github.com/overhangio/tutor-notes.git@nightly#egg=tutor-notes
+  url: https://github.com/overhangio/tutor-notes
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: eduNEXT
+  description: |
+    Add student notes to the Open edX courseware.
+
+- name: webui
+  src: -e git+https://github.com/overhangio/tutor-webui.git@nightly#egg=tutor-webui
+  url: https://github.com/overhangio/tutor-webui
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Manage your Tutor-powered Open edX installation from the browser.
+
+- name: xqueue
+  src: -e git+https://github.com/overhangio/tutor-xqueue.git@nightly#egg=tutor-xqueue
+  url: https://github.com/overhangio/tutor-xqueue
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: eduNEXT
+  description: |
+    Xqueue external grading system for your Open edX platform.
+
