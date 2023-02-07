@@ -1,2 +1,2 @@
 test:
-	python -m unittest discover tests
+	python -m unittest run ./tests.py
