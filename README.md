@@ -46,6 +46,10 @@ To test the validity of your changes to the plugin indexes, run:
 
     make test
 
+Depending on your environment, you might have to install test requirements:
+
+    make test-requirements
+
 # Troubleshooting
 
 These indexes are maintained by Régis Behmo from [Overhang.IO](https://overhang.io). Community support is available from the official [Open edX forum](https://discuss.openedx.org).
