@@ -36,11 +36,15 @@ This index contains references to the premium plugins from the commercial Tutor 
 
 ### <a name="contrib"></a>contrib
 
-This index references plugins from 3rd-party individuals and companies. New entries are welcome! Are you the maintainer of a Tutor plugin that you would like to share with the rest of the world? Then please open a pull request to this repository.
+This index references plugins from 3rd-party individuals and companies. New entries are welcome! Are you the maintainer of a Tutor plugin that you would like to share with the rest of the world? Then please open a pull request to this repository. Unit tests will automatically check the validity of your changes.
 
 New "plugins.yml" files will be created for every release, every six months. Plugin maintainers are expected to open new pull requests to add their plugins to the contrib index shortly after each release.
 
-<!-- TODO add tests to validate plugin indexes-->
+# Development
+
+To test the validity of your changes to the plugin indexes, run:
+
+    make test
 
 # Troubleshooting
 
