@@ -47,6 +47,15 @@
   description: |
     A beautiful, blue theme for Open edX.
 
+- name: jupyter
+  src: -e git+https://github.com/overhangio/tutor-jupyter.git@nightly#egg=tutor-jupyter
+  url: https://github.com/overhangio/tutor-jupyter
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Run Jupyter notebooks right in your LMS.
+
+
 - name: license
   src: -e git+https://github.com/overhangio/tutor-ecommerce.git@nightly#egg=tutor-ecommerce
   url: https://pypi.org/project/tutor-license
