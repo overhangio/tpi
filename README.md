@@ -56,4 +56,4 @@ These indexes are maintained by Régis Behmo from [Overhang.IO](https://overhang
 
 ## License
 
-This work is licensed under the terms of the [GNU Affero General Public License (AGPL)](https://github.com/overhangio/tutor-plugin-indexes/blob/master/LICENSE.txt).
+This work is licensed under the terms of the [GNU Affero General Public License (AGPL)](https://github.com/overhangio/tpi/blob/master/LICENSE.txt).
