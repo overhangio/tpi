@@ -24,15 +24,11 @@ Upgrade all plugins:
 
 ## Indexes
 
-Three indexes are stored in this repo: [main](#main), [wizard](#wizard) and [contrib](#contrib).
+Two indexes are stored in this repo: [main](#main) and [contrib](#contrib).
 
 ### <a name="main"></a>main
 
 This is the index for the free, open source plugins that are officially maintained by [Overhang.IO](https://overhangio.io). Major releases for these plugins are published prior to every major Open edX release, following the official [release schedule](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3613392957/Open+edX+release+schedule).
-
-### <a name="wizard"></a>wizard
-
-This index contains references to the premium plugins from the commercial Tutor [Wizard Edition](https://overhang.io/tutor/wizardedition).  A valid license ID is required to install these plugins. You will also need the [license plugin](https://pypi.org/project/tutor-license/), which can be installed from the "main" index with: `tutor plugins install license`.
 
 ### <a name="contrib"></a>contrib
 

@@ -10,6 +10,30 @@
   description: |
     Build an Android mobile application for your Open edX platform.
 
+- name: cairn
+  src: -e git+https://github.com/overhangio/tutor-cairn.git@nightly#egg=tutor-cairn
+  url: https://overhang.io/tutor/plugin/cairn
+  author: Overhang.IO <regis@overhang.io>
+  maintainer: Overhang.IO <regis@overhang.io>
+  description: |
+    Scalable, real-time analytics for Open edX.
+    Analytics are an essential component of an online learning platform: you need to know whether your courses are effective and which parts need some improvement. You need to know if your students are falling by, and if they do, you need to detect the early warning signs. When your courses are successful, you want to get periodical engagement reports.
+
+    We created a tool to help you answer all these questions. Cairn is a Tutor plugin that you install on top of an Open edX platform and that gives you access to a powerful, full-blown analytics stack. Cairn comes with the following features out of the box:
+
+    ❄️ Unified datalake of learner events and stateful data: both learner-triggered events, coming from the Open edX tracking logs, and stateful data, coming from the existing databases, are available for querying in a single unified interface. This means that you can, for instance, query the grades of the students that visited your platform in the past 24 hours, or collect the email addresses of the students who did not yet complete the latest assignment.
+
+    ⚡ Real-time: new events are visible immediately in your analytics interface. No more waiting for slow batch jobs to complete!
+
+    🔑 Course- and org-based data access rights: your course staff is granted access only to the data rows that concern them. Cairn makes it easy to create new users with granular access permissions.
+
+    🎁 Working dashboards out of the box: Cairn comes with a fully functional dashboard that you can start playing with right away.
+
+    🛠️ Fully customizable data and dashboards: your data scientists, business intelligence team and other tinkerers can freely explore your course data, create and share their own queries, datasets and dashboards. All it takes is a little bit of SQL.
+
+    🚀 Scalable: Cairn scales as much as its backend, which was designed for Internet scale.
+
+
 - name: discovery
   src: -e git+https://github.com/overhangio/tutor-discovery.git@nightly#egg=tutor-discovery
   url: https://github.com/overhangio/tutor-discovery
@@ -66,6 +90,9 @@
   maintainer: Overhang.IO <regis@overhang.io>
   description: |
     Tutor plugin to install premium plugins from the Wizard Edition.
+
+    NOTE This plugin is obsolete and no longer required, as plugins from the Wizard
+    Edition are free for everyone.
 
 - name: mfe
   src: -e git+https://github.com/overhangio/tutor-mfe.git@nightly#egg=tutor-mfe

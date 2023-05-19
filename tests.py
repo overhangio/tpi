@@ -7,7 +7,7 @@ import yaml
 
 ROOT_DIR = os.path.dirname(__file__)
 RELEASES = os.listdir(os.path.join(ROOT_DIR, "main"))
-INDEXES = ["main", "wizard", "contrib"]
+INDEXES = ["main", "contrib"]
 
 
 class IndexTests(unittest.TestCase):
