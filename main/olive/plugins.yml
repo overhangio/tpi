@@ -55,6 +55,10 @@
   description: |
     Run Jupyter notebooks right in your LMS.
 
+    Launch a JupyterHub single-node cluster and install the Jupyter XBlock in the Open
+    edX LMS/CMS. This makes it very easy to launch student-editable code editors rights
+    in your courses.
+
 - name: license
   src: tutor-ecommerce>=15.0.0,<16.0.0
   url: https://pypi.org/project/tutor-license
