@@ -72,7 +72,7 @@
     A beautiful, blue theme for Open edX.
 
 - name: jupyter
-  src: tutor-indigo>=15.0.0,<16.0.0
+  src: tutor-jupyter>=15.0.0,<16.0.0
   url: https://github.com/overhangio/tutor-jupyter
   author: Overhang.IO <regis@overhang.io>
   maintainer: Overhang.IO <regis@overhang.io>
