@@ -84,7 +84,7 @@
     in your courses.
 
 - name: license
-  src: tutor-ecommerce>=15.0.0,<16.0.0
+  src: tutor-license>=15.0.0,<16.0.0
   url: https://pypi.org/project/tutor-license
   author: Overhang.IO <regis@overhang.io>
   maintainer: Overhang.IO <regis@overhang.io>

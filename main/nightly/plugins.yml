@@ -83,17 +83,6 @@
     edX LMS/CMS. This makes it very easy to launch student-editable code editors rights
     in your courses.
 
-- name: license
-  src: -e git+https://github.com/overhangio/tutor-ecommerce.git@nightly#egg=tutor-ecommerce
-  url: https://pypi.org/project/tutor-license
-  author: Overhang.IO <regis@overhang.io>
-  maintainer: Overhang.IO <regis@overhang.io>
-  description: |
-    Tutor plugin to install premium plugins from the Wizard Edition.
-
-    NOTE This plugin is obsolete and no longer required, as plugins from the Wizard
-    Edition are free for everyone.
-
 - name: mfe
   src: -e git+https://github.com/overhangio/tutor-mfe.git@nightly#egg=tutor-mfe
   url: https://github.com/overhangio/tutor-mfe
