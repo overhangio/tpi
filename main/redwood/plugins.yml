@@ -1,9 +1,9 @@
 # This is the index for all Tutor plugins that are officially maintained by Edly.
-# It is available at the following location: https://overhang.io/tutor/main/quince/plugins.yml
+# It is available at the following location: https://overhang.io/tutor/main/redwood/plugins.yml
 # It can be modified by opening a pull request on the following repository: https://github.com/overhangio/tpi/
 
 - name: android
-  src: tutor-android>=17.0.0,<18.0.0
+  src: tutor-android>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-android
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -11,7 +11,7 @@
     Build an Android mobile application for your Open edX platform.
 
 - name: cairn
-  src: tutor-cairn>=17.0.0,<18.0.0
+  src: tutor-cairn>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-cairn
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -33,9 +33,18 @@
 
     🚀 Scalable: Cairn scales as much as its backend, which was designed for Internet scale.
 
+- name: credentials
+  src: tutor-credentials>=18.0.0,<19.0.0
+  url: https://github.com/overhangio/tutor-credentials
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    Integrate the Credentials application, which supports course and program certificates.
+    This plugin offers an admin panel where user can do configurations
+    for the certificates of his course and program.
 
 - name: discovery
-  src: tutor-discovery>=17.0.0,<18.0.0
+  src: tutor-discovery>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-discovery
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -45,7 +54,7 @@
     (https://github.com/openedx/course-discovery) in your Open edX environment.
 
 - name: ecommerce
-  src: tutor-ecommerce>=17.0.0,<18.0.0
+  src: tutor-ecommerce>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-ecommerce
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -56,7 +65,7 @@
     plugin depends on the discovery and the MFE plugins, which must also be enabled.
 
 - name: forum
-  src: tutor-forum>=17.0.0,<18.0.0
+  src: tutor-forum>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-forum
   author: Edly <regis.behmo@edly.io>
   maintainer: Zaat.dev <ghassan@zaat.dev>
@@ -64,7 +73,7 @@
     Add discussion forum to your Open edX platform.
 
 - name: indigo
-  src: tutor-indigo>=17.0.0,<18.0.0
+  src: tutor-indigo>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-indigo
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -72,7 +81,7 @@
     A beautiful, blue theme for Open edX.
 
 - name: jupyter
-  src: tutor-jupyter>=17.0.0,<18.0.0
+  src: tutor-jupyter>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-jupyter
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -84,7 +93,7 @@
     in your courses.
 
 - name: mfe
-  src: tutor-mfe>=17.0.0,<18.0.0
+  src: tutor-mfe>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-mfe
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -93,7 +102,7 @@
     Microfrontends form the backbone of Open edX. Thus, this plugin is required by most Open edX installations.
 
 - name: minio
-  src: tutor-minio>=17.0.0,<18.0.0
+  src: tutor-minio>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-minio
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -102,7 +111,7 @@
     This plugins is pretty much a requirement to run Open edX on Kubernetes.
 
 - name: notes
-  src: tutor-notes>=17.0.0,<18.0.0
+  src: tutor-notes>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-notes
   author: Edly <regis.behmo@edly.io>
   maintainer: eduNEXT
@@ -110,7 +119,7 @@
     Add student notes to the Open edX courseware.
 
 - name: webui
-  src: tutor-webui>=17.0.0,<18.0.0
+  src: tutor-webui>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-webui
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -118,7 +127,7 @@
     Manage your Tutor-powered Open edX installation from the browser.
 
 - name: xqueue
-  src: tutor-xqueue>=17.0.0,<18.0.0
+  src: tutor-xqueue>=18.0.0,<19.0.0
   url: https://github.com/overhangio/tutor-xqueue
   author: Edly <regis.behmo@edly.io>
   maintainer: eduNEXT

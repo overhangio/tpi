@@ -1,8 +1,8 @@
 # TPI: Tutor Plugin Indexes
 
-This is the repository for the official [Tutor](https://docs.tutor.overhang.io/) plugin indexes maintained by [Overhang.IO](https://overhang.io). A Tutor plugin index is similar to the Python Package index ([PyPi](https://pypi.org/)) or an `apt` repository: it is a reference to many plugins that can then be easily installed and enabled by Tutor.
+This is the repository for the official [Tutor](https://docs.tutor.edly.io/) plugin indexes maintained by [Edly](https://edly.io). A Tutor plugin index is similar to the Python Package index ([PyPi](https://pypi.org/)) or an `apt` repository: it is a reference to many plugins that can then be easily installed and enabled by Tutor.
 
-For more information about plugin indexes, check out the [Tutor official documentation](https://docs.tutor.overhang.io/reference/indexes.html).
+For more information about plugin indexes, check out the [Tutor official documentation](https://docs.tutor.edly.io/reference/indexes.html).
 
 ## Cheatsheet
 
@@ -28,7 +28,7 @@ Two indexes are stored in this repo: [main](#main) and [contrib](#contrib).
 
 ### <a name="main"></a>main
 
-This is the index for the free, open source plugins that are officially maintained by [Overhang.IO](https://overhangio.io). Major releases for these plugins are published prior to every major Open edX release, following the official [release schedule](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3613392957/Open+edX+release+schedule).
+This is the index for the free, open source plugins that are officially maintained by [Edly](https://edly.io). Major releases for these plugins are published prior to every major Open edX release, following the official [release schedule](https://openedx.atlassian.net/wiki/spaces/COMM/pages/3613392957/Open+edX+release+schedule).
 
 ### <a name="contrib"></a>contrib
 
@@ -48,7 +48,7 @@ Depending on your environment, you might have to install test requirements:
 
 # Troubleshooting
 
-These indexes are maintained by Régis Behmo from [Overhang.IO](https://overhang.io). Community support is available from the official [Open edX forum](https://discuss.openedx.org).
+These indexes are maintained by [Edly](https://edly.io). Community support is available from the official [Open edX forum](https://discuss.openedx.org).
 
 ## License
 
