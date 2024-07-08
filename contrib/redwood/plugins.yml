@@ -15,3 +15,12 @@
   description: |
     Tutor plugin enable pod-autoscaling mechanisms for OpenedX installations in Kubernetes.
     The specific mechanisms are HPA and VPA.
+
+- name: meilisearch
+  src: -e git+https://github.com/open-craft/tutor-contrib-meilisearch@v18.0.0#egg=tutor-meilisearch
+  url: https://github.com/open-craft/tutor-contrib-meilisearch
+  author: OpenCraft
+  maintainer: OpenCraft
+  description: |
+    Tutor plugin to install Meilisearch and enable course content search in Studio.
+    See the README on GitHub for further setup instructions.
