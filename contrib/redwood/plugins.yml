@@ -24,3 +24,11 @@
   description: |
     Tutor plugin to install Meilisearch and enable course content search in Studio.
     See the README on GitHub for further setup instructions.
+
+- name: aspects
+  src: tutor-contrib-aspects==1.2.0
+  url: https://github.com/openedx/tutor-contrib-aspects
+  author: Axim
+  maintainer: Axim
+  description: |
+    Tutor plugin to install Aspects, the Open edX Learner Analytics System.
