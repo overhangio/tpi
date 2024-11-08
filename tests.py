@@ -30,14 +30,16 @@ class IndexTests(unittest.TestCase):
                     names.add(plugin["name"])
 
     def test_all_plugins_have_all_fields(self) -> None:
+        required_fields = ["src", "url", "author", "maintainer", "description"]
         for release in RELEASES:
             for index in INDEXES:
                 for plugin in load_index(release, index):
-                    self.assertIn("src", plugin)
-                    self.assertIn("url", plugin)
-                    self.assertIn("author", plugin)
-                    self.assertIn("maintainer", plugin)
-                    self.assertIn("description", plugin)
+                    for field in required_fields:
+                        self.assertIn(field, plugin)
+                        self.assertTrue(
+                            plugin[field] and plugin[field].strip(),
+                            f"Field {field} cannot be empty",
+                        )
 
 
 def load_index(release: str, index: str) -> list[dict[str, str]]:
