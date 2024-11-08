@@ -24,3 +24,11 @@
   description: |
     Tutor plugin to install Meilisearch and enable course content search in Studio.
     See the README on GitHub for further setup instructions.
+
+- name: k8s_harmony
+  src: -e 'git+https://github.com/openedx/openedx-k8s-harmony.git#egg=tutor-contrib-harmony-plugin&subdirectory=tutor-contrib-harmony-plugin'
+  url: https://github.com/openedx/openedx-k8s-harmony
+  author: 
+  maintainer: 
+  description: |
+    Tutor plugin to deploy multiple Open edX instances on a single cluster.
