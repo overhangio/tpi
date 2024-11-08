@@ -1,3 +1,11 @@
+- name: aspects
+  src: tutor-contrib-aspects<2.0.0
+  url: https://github.com/openedx/tutor-contrib-aspects
+  author: Brian Mesick <bmesick@axim.org>
+  maintainer: Brian Mesick <bmesick@axim.org>
+  description: |
+    Tutor plugin to install Aspects, the Open edX Learner Analytics System.
+
 - name: codejail
   src: -e git+https://github.com/edunext/tutor-contrib-codejail@quince#egg=tutor-contrib-codejail
   url: https://github.com/eduNEXT/tutor-contrib-codejail/
@@ -24,11 +32,3 @@
   description: |
     Tutor plugin to install Meilisearch and enable course content search in Studio.
     See the README on GitHub for further setup instructions.
-
-- name: aspects
-  src: tutor-contrib-aspects==1.2.0
-  url: https://github.com/openedx/tutor-contrib-aspects
-  author: Axim
-  maintainer: Axim
-  description: |
-    Tutor plugin to install Aspects, the Open edX Learner Analytics System.
