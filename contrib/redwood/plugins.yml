@@ -6,23 +6,32 @@
   description: |
     Tutor plugin to install Aspects, the Open edX Learner Analytics System.
 
-- name: codejail
-  src: -e git+https://github.com/edunext/tutor-contrib-codejail@quince#egg=tutor-contrib-codejail
-  url: https://github.com/eduNEXT/tutor-contrib-codejail/
-  author: eduNEXT
-  maintainer: eduNEXT
+- name: celery
+  src: tutor-contrib-celery>=18.0.0,<19.0.0
+  url: https://github.com/eduNEXT/tutor-contrib-celery
+  author: eduNEXT <technical@edunext.co>
+  maintainer: eduNEXT <technical@edunext.co>
   description: |
-    Tutor plugin to enable execution of untrusted code in secure sandboxes.
+    Extend the default LMS and CMS celery workers included in Tutor allowing to
+    run multiple celery queues to optimize the performance of async tasks.
+
+- name: codejail
+  src: tutor-contrib-codejail>=18.0.0,<19.0.0
+  url: https://github.com/eduNEXT/tutor-contrib-codejail/
+  author: eduNEXT <technical@edunext.co>
+  maintainer: eduNEXT <technical@edunext.co>
+  description: |
+    Enable execution of untrusted code in secure sandboxes.
     In particular, this plugin is required to run Python-evaluated input XBlocks.
 
-- name: pod-autoscaling
-  src: -e git+https://github.com/eduNEXT/tutor-contrib-pod-autoscaling@v17.0.0#egg=tutor-contrib-pod-autoscaling
-  url: https://github.com/eduNEXT/tutor-contrib-pod-autoscaling
-  author: eduNEXT
-  maintainer: eduNEXT
+- name: drydock
+  src: tutor-contrib-drydock>=18.0.0,<19.0.0
+  url: https://github.com/eduNEXT/drydock/
+  author: eduNEXT <technical@edunext.co>
+  maintainer: eduNEXT <technical@edunext.co>
   description: |
-    Tutor plugin enable pod-autoscaling mechanisms for OpenedX installations in Kubernetes.
-    The specific mechanisms are HPA and VPA.
+    Drydock is an opinionated tool offering a set of Tutor plugins aiming to provide features
+    that enhance the operation of Open edX installations in Kubernetes.
 
 - name: meilisearch
   src: -e git+https://github.com/open-craft/tutor-contrib-meilisearch@v18.0.0#egg=tutor-meilisearch
@@ -32,3 +41,29 @@
   description: |
     Tutor plugin to install Meilisearch and enable course content search in Studio.
     See the README on GitHub for further setup instructions.
+
+- name: mfe-extensions
+  src: tutor-contrib-mfe-extensions>=18.0.0,<19.0.0
+  url: https://github.com/eduNEXT/tutor-contrib-mfe-extensions
+  author: eduNEXT <technical@edunext.co>
+  maintainer: eduNEXT <technical@edunext.co>
+  description: |
+    Extend the MFE plugin to allow the use of CDNs and routing MFE traffic by path
+    instead of domains.
+
+- name: pod-autoscaling
+  src: tutor-contrib-pod-autoscaling>=18.0.0,<19.0.0
+  url: https://github.com/eduNEXT/tutor-contrib-pod-autoscaling
+  author: eduNEXT <technical@edunext.co>
+  maintainer: eduNEXT <technical@edunext.co>
+  description: |
+    Enable pod-autoscaling mechanisms for Open edX installations in Kubernetes.
+    The specific mechanisms are HPA and VPA.
+
+- name: sentry
+  src: tutor-contrib-sentry>=18.0.0,<19.0.0
+  url: https://github.com/eduNEXT/tutor-contrib-sentry
+  author: eduNEXT <technical@edunext.co>
+  maintainer: eduNEXT <technical@edunext.co>
+  description: |
+    Sentry integration for Open edX.
