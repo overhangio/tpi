@@ -3,7 +3,7 @@
 # It can be modified by opening a pull request on the following repository: https://github.com/overhangio/tpi/
 
 - name: android
-  src: -e git+https://github.com/overhangio/tutor-android.git@nightly#egg=tutor-android
+  src: -e git+https://github.com/overhangio/tutor-android.git@main#egg=tutor-android
   url: https://github.com/overhangio/tutor-android
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -11,7 +11,7 @@
     Build an Android mobile application for your Open edX platform.
 
 - name: cairn
-  src: -e git+https://github.com/overhangio/tutor-cairn.git@nightly#egg=tutor-cairn
+  src: -e git+https://github.com/overhangio/tutor-cairn.git@main#egg=tutor-cairn
   url: https://github.com/overhangio/tutor-cairn
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -35,7 +35,7 @@
 
 
 - name: discovery
-  src: -e git+https://github.com/overhangio/tutor-discovery.git@nightly#egg=tutor-discovery
+  src: -e git+https://github.com/overhangio/tutor-discovery.git@main#egg=tutor-discovery
   url: https://github.com/overhangio/tutor-discovery
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -45,7 +45,7 @@
     (https://github.com/openedx/course-discovery) in your Open edX environment.
 
 - name: ecommerce
-  src: -e git+https://github.com/overhangio/tutor-ecommerce.git@nightly#egg=tutor-ecommerce
+  src: -e git+https://github.com/overhangio/tutor-ecommerce.git@main#egg=tutor-ecommerce
   url: https://github.com/overhangio/tutor-ecommerce
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -56,7 +56,7 @@
     plugin depends on the discovery and the MFE plugins, which must also be enabled.
 
 - name: forum
-  src: -e git+https://github.com/overhangio/tutor-forum.git@nightly#egg=tutor-forum
+  src: -e git+https://github.com/overhangio/tutor-forum.git@main#egg=tutor-forum
   url: https://github.com/overhangio/tutor-forum
   author: Edly <regis.behmo@edly.io>
   maintainer: Zaat.dev <ghassan@zaat.dev>
@@ -64,7 +64,7 @@
     Add discussion forum to your Open edX platform.
 
 - name: indigo
-  src: -e git+https://github.com/overhangio/tutor-indigo.git@nightly#egg=tutor-indigo
+  src: -e git+https://github.com/overhangio/tutor-indigo.git@main#egg=tutor-indigo
   url: https://github.com/overhangio/tutor-indigo
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -72,7 +72,7 @@
     A beautiful, blue theme for Open edX.
 
 - name: jupyter
-  src: -e git+https://github.com/overhangio/tutor-jupyter.git@nightly#egg=tutor-jupyter
+  src: -e git+https://github.com/overhangio/tutor-jupyter.git@main#egg=tutor-jupyter
   url: https://github.com/overhangio/tutor-jupyter
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -84,7 +84,7 @@
     in your courses.
 
 - name: mfe
-  src: -e git+https://github.com/overhangio/tutor-mfe.git@nightly#egg=tutor-mfe
+  src: -e git+https://github.com/overhangio/tutor-mfe.git@main#egg=tutor-mfe
   url: https://github.com/overhangio/tutor-mfe
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -93,7 +93,7 @@
     Microfrontends form the backbone of Open edX. Thus, this plugin is required by most Open edX installations.
 
 - name: minio
-  src: -e git+https://github.com/overhangio/tutor-minio.git@nightly#egg=tutor-minio
+  src: -e git+https://github.com/overhangio/tutor-minio.git@main#egg=tutor-minio
   url: https://github.com/overhangio/tutor-minio
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -102,7 +102,7 @@
     This plugins is pretty much a requirement to run Open edX on Kubernetes.
 
 - name: notes
-  src: -e git+https://github.com/overhangio/tutor-notes.git@nightly#egg=tutor-notes
+  src: -e git+https://github.com/overhangio/tutor-notes.git@main#egg=tutor-notes
   url: https://github.com/overhangio/tutor-notes
   author: Edly <regis.behmo@edly.io>
   maintainer: eduNEXT
@@ -110,7 +110,7 @@
     Add student notes to the Open edX courseware.
 
 - name: webui
-  src: -e git+https://github.com/overhangio/tutor-webui.git@nightly#egg=tutor-webui
+  src: -e git+https://github.com/overhangio/tutor-webui.git@main#egg=tutor-webui
   url: https://github.com/overhangio/tutor-webui
   author: Edly <regis.behmo@edly.io>
   maintainer: Edly <regis.behmo@edly.io>
@@ -118,7 +118,7 @@
     Manage your Tutor-powered Open edX installation from the browser.
 
 - name: xqueue
-  src: -e git+https://github.com/overhangio/tutor-xqueue.git@nightly#egg=tutor-xqueue
+  src: -e git+https://github.com/overhangio/tutor-xqueue.git@main#egg=tutor-xqueue
   url: https://github.com/overhangio/tutor-xqueue
   author: Edly <regis.behmo@edly.io>
   maintainer: eduNEXT
