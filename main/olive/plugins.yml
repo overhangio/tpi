@@ -1,5 +1,5 @@
 # This is the index for all Tutor plugins that are officially maintained by Edly.
-# It is available at the following location: https://overhang.io/tutor/main/nightly/plugins.yml
+# It is available at the following location: https://overhang.io/tutor/main/olive/plugins.yml
 # It can be modified by opening a pull request on the following repository: https://github.com/overhangio/tpi/
 
 - name: android
