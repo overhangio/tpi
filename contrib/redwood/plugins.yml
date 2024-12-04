@@ -33,6 +33,14 @@
     Drydock is an opinionated tool offering a set of Tutor plugins aiming to provide features
     that enhance the operation of Open edX installations in Kubernetes.
 
+- name: k8s_harmony
+  src: tutor-plugin-harmony>=18.0.0,<19.0.0
+  url: https://github.com/openedx/openedx-k8s-harmony
+  author: eduNEXT <technical@edunext.co>, OpenCraft <help@opencraft.com>, and contributors
+  maintainer: OpenCraft <help@opencraft.com>
+  description: |
+    Tutor plugin to deploy multiple Open edX instances on a single cluster.
+
 - name: meilisearch
   src: -e git+https://github.com/open-craft/tutor-contrib-meilisearch@v18.0.0#egg=tutor-meilisearch
   url: https://github.com/open-craft/tutor-contrib-meilisearch
