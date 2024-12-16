@@ -1,0 +1,136 @@
+# This is the index for all Tutor plugins that are officially maintained by Edly.
+# It is available at the following location: https://overhang.io/tutor/main/sumac/plugins.yml
+# It can be modified by opening a pull request on the following repository: https://github.com/overhangio/tpi/
+
+- name: android
+  src: tutor-android>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-android
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    Build an Android mobile application for your Open edX platform.
+
+- name: cairn
+  src: tutor-cairn>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-cairn
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    Scalable, real-time analytics for Open edX.
+    Analytics are an essential component of an online learning platform: you need to know whether your courses are effective and which parts need some improvement. You need to know if your students are falling by, and if they do, you need to detect the early warning signs. When your courses are successful, you want to get periodical engagement reports.
+
+    We created a tool to help you answer all these questions. Cairn is a Tutor plugin that you install on top of an Open edX platform and that gives you access to a powerful, full-blown analytics stack. Cairn comes with the following features out of the box:
+
+    ❄️ Unified datalake of learner events and stateful data: both learner-triggered events, coming from the Open edX tracking logs, and stateful data, coming from the existing databases, are available for querying in a single unified interface. This means that you can, for instance, query the grades of the students that visited your platform in the past 24 hours, or collect the email addresses of the students who did not yet complete the latest assignment.
+
+    ⚡ Real-time: new events are visible immediately in your analytics interface. No more waiting for slow batch jobs to complete!
+
+    🔑 Course- and org-based data access rights: your course staff is granted access only to the data rows that concern them. Cairn makes it easy to create new users with granular access permissions.
+
+    🎁 Working dashboards out of the box: Cairn comes with a fully functional dashboard that you can start playing with right away.
+
+    🛠️ Fully customizable data and dashboards: your data scientists, business intelligence team and other tinkerers can freely explore your course data, create and share their own queries, datasets and dashboards. All it takes is a little bit of SQL.
+
+    🚀 Scalable: Cairn scales as much as its backend, which was designed for Internet scale.
+
+- name: credentials
+  src: tutor-credentials>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-credentials
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    Integrate the Credentials application, which supports course and program certificates.
+    This plugin offers an admin panel where user can do configurations
+    for the certificates of his course and program.
+
+- name: discovery
+  src: tutor-discovery>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-discovery
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    Integrate the Open edX Course Discovery application.
+    This plugins makes it easy to install the course-discovery application
+    (https://github.com/openedx/course-discovery) in your Open edX environment.
+
+- name: ecommerce
+  src: tutor-ecommerce>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-ecommerce
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    E-commerce plugin to sell course products on Open edX.
+    This plugins makes it easy to install the ecommerce application
+    (https://github.com/openedx/ecommerce) in your Open edX environment. Note that this
+    plugin depends on the discovery and the MFE plugins, which must also be enabled.
+
+- name: forum
+  src: tutor-forum>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-forum
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Zaat.dev <ghassan@zaat.dev>
+  description: |
+    Add discussion forum to your Open edX platform.
+
+- name: indigo
+  src: tutor-indigo>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-indigo
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    A beautiful, blue theme for Open edX.
+
+- name: jupyter
+  src: tutor-jupyter>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-jupyter
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    Run Jupyter notebooks right in your LMS.
+
+    Launch a JupyterHub single-node cluster and install the Jupyter XBlock in the Open
+    edX LMS/CMS. This makes it very easy to launch student-editable code editors rights
+    in your courses.
+
+- name: mfe
+  src: tutor-mfe>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-mfe
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    Easy integration of custom microfrontends with your Open edX platform.
+    Microfrontends form the backbone of Open edX. Thus, this plugin is required by most Open edX installations.
+
+- name: minio
+  src: tutor-minio>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-minio
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    Scalable object storage for Open edX.
+    This plugins is pretty much a requirement to run Open edX on Kubernetes.
+
+- name: notes
+  src: tutor-notes>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-notes
+  author: Edly <regis.behmo@edly.io>
+  maintainer: eduNEXT
+  description: |
+    Add student notes to the Open edX courseware.
+
+- name: webui
+  src: tutor-webui>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-webui
+  author: Edly <regis.behmo@edly.io>
+  maintainer: Edly <regis.behmo@edly.io>
+  description: |
+    Manage your Tutor-powered Open edX installation from the browser.
+
+- name: xqueue
+  src: tutor-xqueue>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-xqueue
+  author: Edly <regis.behmo@edly.io>
+  maintainer: eduNEXT
+  description: |
+    Xqueue external grading system for your Open edX platform.
+
