@@ -44,17 +44,6 @@
     This plugins makes it easy to install the course-discovery application
     (https://github.com/openedx/course-discovery) in your Open edX environment.
 
-- name: ecommerce
-  src: -e git+https://github.com/overhangio/tutor-ecommerce.git@main#egg=tutor-ecommerce
-  url: https://github.com/overhangio/tutor-ecommerce
-  author: Edly <regis.behmo@edly.io>
-  maintainer: Edly <regis.behmo@edly.io>
-  description: |
-    E-commerce plugin to sell course products on Open edX.
-    This plugins makes it easy to install the ecommerce application
-    (https://github.com/openedx/ecommerce) in your Open edX environment. Note that this
-    plugin depends on the discovery and the MFE plugins, which must also be enabled.
-
 - name: forum
   src: -e git+https://github.com/overhangio/tutor-forum.git@main#egg=tutor-forum
   url: https://github.com/overhangio/tutor-forum
