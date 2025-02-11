@@ -75,3 +75,11 @@
   maintainer: eduNEXT <technical@edunext.co>
   description: |
     Sentry integration for Open edX.
+
+- name: wordpress
+  src: tutor-contrib-wordpress>=1.1.0,<2.0.0
+  url: https://github.com/CodeWithEmad/tutor-contrib-wordpress
+  author: Emad Rad <codewithemad@gmail.com>
+  maintainer: Emad Rad <codewithemad@gmail.com>
+  description: |
+    Effortlessly integrate Open edX into WordPress with this plugin, designed for smooth setup and reliable performance.

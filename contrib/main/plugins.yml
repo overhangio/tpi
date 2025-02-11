@@ -24,3 +24,11 @@
   description: |
     Tutor plugin to install Meilisearch and enable course content search in Studio.
     See the README on GitHub for further setup instructions.
+
+- name: wordpress
+  src: -e git+https://github.com/CodeWithEmad/tutor-contrib-wordpress@master#egg=tutor-contrib-wordpress
+  url: https://github.com/CodeWithEmad/tutor-contrib-wordpress
+  author: Emad Rad <codewithemad@gmail.com>
+  maintainer: Emad Rad <codewithemad@gmail.com>
+  description: |
+    Effortlessly integrate Open edX into WordPress with this plugin, designed for smooth setup and reliable performance.
