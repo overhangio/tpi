@@ -43,6 +43,32 @@
     This plugin offers an admin panel where user can do configurations
     for the certificates of his course and program.
 
+- name: deck
+  src: tutor-deck>=19.0.0,<20.0.0
+  url: https://github.com/overhangio/tutor-deck
+  author: Edly <hello@edly.io>
+  maintainer: Muhammad Labeeb <muhammad.labeeb@arbisoft.com>
+  description: |
+    Awesome administration dashboard and plugin marketplace for Tutor.
+
+    Discover and install plugins from plugin marketplace
+    ![Marketplace Image](https://github.com/overhangio/tutor-deck/raw/release/images/marketplace.png "Marketplace Image")
+
+    Browse your installed plugins
+    ![Installed Image](https://github.com/overhangio/tutor-deck/raw/release/images/installed.png "Installed Image")
+
+    Enable/Disable plugin
+    ![Android Image](https://github.com/overhangio/tutor-deck/raw/release/images/android.png "Android Image")
+
+    Change plugin parameters
+    ![Android Settings Image](https://github.com/overhangio/raw/release/tutor-deck/images/android_settings.png "Android Settings Image")
+
+    Use Developer mode for all tutor CLI commands
+    ![Developer Image](https://github.com/overhangio/tutor-deck/raw/release/images/developer.png "Developer Image")
+
+    Restart platform via GUI to apply changes
+    ![Apply Image](https://github.com/overhangio/tutor-deck/raw/release/images/apply.png "Apply Image")
+
 - name: discovery
   src: tutor-discovery>=19.0.0,<20.0.0
   url: https://github.com/overhangio/tutor-discovery
