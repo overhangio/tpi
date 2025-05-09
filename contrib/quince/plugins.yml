@@ -6,6 +6,17 @@
   description: |
     Tutor plugin to install Aspects, the Open edX Learner Analytics System.
 
+- name: branding
+  src: tutor-contrib-branding>=17.0.0,<18.0.0
+  url: https://github.com/aulasneo/tutor-contrib-branding
+  author: Andrés González <andres@aulasneo.com>
+  maintainer: Andrés González <andres@aulasneo.com>
+  description: |
+    Easily change the look and feel of Open edX installations.
+    Change colors, logos, add custom CSS or change completely the appearance of your Open edX site.
+    With this plugin you will be able to control the appearance of both legacy pages based on HTML
+    (like the home page, course catalog, dashboard, etc.), as well as MFE components.
+
 - name: codejail
   src: -e git+https://github.com/edunext/tutor-contrib-codejail@quince#egg=tutor-contrib-codejail
   url: https://github.com/eduNEXT/tutor-contrib-codejail/
@@ -14,6 +25,29 @@
   description: |
     Tutor plugin to enable execution of untrusted code in secure sandboxes.
     In particular, this plugin is required to run Python-evaluated input XBlocks.
+
+- name: nudge
+  src: tutor-contrib-nudge>=17.0.0,<18.0.0
+  url: https://github.com/aulasneo/tutor-contrib-nudge
+  author: Andrés González <andres@aulasneo.com>
+  maintainer: Andrés González <andres@aulasneo.com>
+  description: |
+    Enable nudge and highlights emails.
+
+- name: panorama
+  src: tutor-contrib-panorama>=17.0.0,<18.0.0
+  url: https://github.com/aulasneo/tutor-contrib-panorama
+  author: Andrés González <andres@aulasneo.com>
+  maintainer: Andrés González <andres@aulasneo.com>
+  description: |
+    The ultimate analytics solution for Open edX and more.
+    Panorama is the most powerful and flexible tool to get deep learning insights from Open edX.
+    It allows connecting multiple Open edX sites in one single view so you can compare all your
+    LMS installations in one sight. It can also connect to other data sources, to enable advanced
+    analyses correlating data from your LMSs as well as your SIS, ERP, CRM or any other support systems.
+    Panorama requires several AWS services to store, process and represent data.
+    Connect Panorama for free to your AWS datalake, or visit [the official website](https://aulasneo.com/panorama) to know
+    our SaaS plans, including a free tier.
 
 - name: pod-autoscaling
   src: -e git+https://github.com/eduNEXT/tutor-contrib-pod-autoscaling@v17.0.0#egg=tutor-contrib-pod-autoscaling
