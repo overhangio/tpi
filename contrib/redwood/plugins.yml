@@ -34,7 +34,7 @@
     that enhance the operation of Open edX installations in Kubernetes.
 
 - name: k8s_harmony
-  src: tutor-plugin-harmony>=18.0.0,<19.0.0
+  src: tutor-contrib-harmony>=18.0.0,<19.0.0
   url: https://github.com/openedx/openedx-k8s-harmony
   author: eduNEXT <technical@edunext.co>, OpenCraft <help@opencraft.com>, and contributors
   maintainer: OpenCraft <help@opencraft.com>
