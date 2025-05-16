@@ -6,6 +6,17 @@
   description: |
     Tutor plugin to install Aspects, the Open edX Learner Analytics System.
 
+- name: branding
+  src: tutor-contrib-branding>=18.0.0,<19.0.0
+  url: https://github.com/aulasneo/tutor-contrib-branding
+  author: Andrés González <andres@aulasneo.com>
+  maintainer: Andrés González <andres@aulasneo.com>
+  description: |
+    Easily change the look and feel of Open edX installations.
+    Change colors, logos, add custom CSS or change completely the appearance of your Open edX site.
+    With this plugin you will be able to control the appearance of both legacy pages based on HTML
+    (like the home page, course catalog, dashboard, etc.), as well as MFE components.
+
 - name: celery
   src: tutor-contrib-celery>=18.0.0,<19.0.0
   url: https://github.com/eduNEXT/tutor-contrib-celery
@@ -41,6 +52,16 @@
   description: |
     Tutor plugin to deploy multiple Open edX instances on a single cluster.
 
+- name: let
+  src: tutor-contrib-let>=18.0.0,<19.0.0
+  url: https://github.com/aulasneo/tutor-contrib-let
+  author: Andrés González <andres@aulasneo.com>
+  maintainer: Andrés González <andres@aulasneo.com>
+  description: |
+    Modify the configuration of Open edX effortlessly.
+    LET simplifies all these tasks by letting you modify the most common settings
+    in a single plugin, plus giving a better set of defaults for these values.
+
 - name: meilisearch
   src: -e git+https://github.com/open-craft/tutor-contrib-meilisearch@v18.0.0#egg=tutor-meilisearch
   url: https://github.com/open-craft/tutor-contrib-meilisearch
@@ -59,6 +80,29 @@
     Extend the MFE plugin to allow the use of CDNs and routing MFE traffic by path
     instead of domains.
 
+- name: nudge
+  src: tutor-contrib-nudge>=18.0.0,<19.0.0
+  url: https://github.com/aulasneo/tutor-contrib-nudge
+  author: Andrés González <andres@aulasneo.com>
+  maintainer: Andrés González <andres@aulasneo.com>
+  description: |
+    Enable nudge and highlights emails.
+
+- name: panorama
+  src: tutor-contrib-panorama>=18.0.0,<19.0.0
+  url: https://github.com/aulasneo/tutor-contrib-panorama
+  author: Andrés González <andres@aulasneo.com>
+  maintainer: Andrés González <andres@aulasneo.com>
+  description: |
+    The ultimate analytics solution for Open edX and more.
+    Panorama is the most powerful and flexible tool to get deep learning insights from Open edX.
+    It allows connecting multiple Open edX sites in one single view so you can compare all your
+    LMS installations in one sight. It can also connect to other data sources, to enable advanced
+    analyses correlating data from your LMSs as well as your SIS, ERP, CRM or any other support systems.
+    Panorama requires several AWS services to store, process and represent data.
+    Connect Panorama for free to your AWS datalake, or visit [the official website](https://aulasneo.com/panorama) to know
+    our SaaS plans, including a free tier.
+
 - name: pod-autoscaling
   src: tutor-contrib-pod-autoscaling>=18.0.0,<19.0.0
   url: https://github.com/eduNEXT/tutor-contrib-pod-autoscaling
@@ -68,6 +112,14 @@
     Enable pod-autoscaling mechanisms for Open edX installations in Kubernetes.
     The specific mechanisms are HPA and VPA.
 
+- name: redirect
+  src: tutor-contrib-redirect>=18.0.0,<19.0.0
+  url: https://github.com/aulasneo/tutor-contrib-redirect
+  author: Andrés González <andres@aulasneo.com>
+  maintainer: Andrés González <andres@aulasneo.com>
+  description: |
+    Redirect www to non-www in your LMS (works only with K8s setups based on nginx-ingress and cert-manager).
+
 - name: sentry
   src: tutor-contrib-sentry>=18.0.0,<19.0.0
   url: https://github.com/eduNEXT/tutor-contrib-sentry
@@ -75,6 +127,18 @@
   maintainer: eduNEXT <technical@edunext.co>
   description: |
     Sentry integration for Open edX.
+
+- name: webhooks
+  src: tutor-contrib-webhooks>=18.0.0,<19.0.0
+  url: https://github.com/aulasneo/tutor-contrib-webhooks
+  author: Andrés González <andres@aulasneo.com>
+  maintainer: Andrés González <andres@aulasneo.com>
+  description: |
+    Connect your Open edX instance to external services with this handy plugin by adding webhooks and webfilters.
+    Both webhooks and webfilters are triggered when certain events happen in your platform,
+    e.g. when a student logs in, when a certificate is issued, and many more. Then they will
+    send an http request to a configurable URL with all the relevant information. Web filters also
+    allow you to interrupt the process, modify certain data or perform specific actions.
 
 - name: wordpress
   src: tutor-contrib-wordpress>=1.1.0,<2.0.0
