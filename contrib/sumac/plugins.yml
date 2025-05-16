@@ -34,14 +34,6 @@
     LET simplifies all these tasks by letting you modify the most common settings
     in a single plugin, plus giving a better set of defaults for these values.
 
-- name: nudge
-  src: tutor-contrib-nudge>=19.0.0,<20.0.0
-  url: https://github.com/aulasneo/tutor-contrib-nudge
-  author: Andrés González <andres@aulasneo.com>
-  maintainer: Andrés González <andres@aulasneo.com>
-  description: |
-    Enable nudge and highlights emails.
-
 - name: panorama
   src: tutor-contrib-panorama>=19.0.0,<20.0.0
   url: https://github.com/aulasneo/tutor-contrib-panorama
