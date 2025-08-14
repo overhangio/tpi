@@ -1,2 +1,15 @@
-# TODO this is empty for now. Reach out to contrib maintainers to add items here.
-[]
+# TODO there are too few plugins here. We should reach out to contrib maintainers to add plugins that were previously compatible with redwood/sumac.
+- name: aspects
+  src: tutor-contrib-aspects<3.0.0
+  url: https://github.com/openedx/tutor-contrib-aspects
+  author: Brian Mesick <bmesick@axim.org>
+  maintainer: Brian Mesick <bmesick@axim.org>
+  description: |
+    Aspects is an analytics system for delivering actionable data about course and learner performance.
+    It uses open source tools and public standards to deliver rich dashboards embedded directly in the
+    Learning Management System, while also providing a full powered reporting package for deeper
+    dives into the data, emailed reports, and alerts supported by Apache Superset.
+
+    Aspects is customizable from end-to-end, allowing you to add new data sources, new dashboards,
+    and everything in between. It scales down to small installations and up to massive ones, and is
+    designed to be easy to install and maintain.
