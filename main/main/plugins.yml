@@ -133,14 +133,6 @@
   description: |
     Add student notes to the Open edX courseware.
 
-- name: webui
-  src: -e git+https://github.com/overhangio/tutor-webui.git@main#egg=tutor-webui
-  url: https://github.com/overhangio/tutor-webui
-  author: Edly <hello@edly.io>
-  maintainer: Edly <abdul.muqadim@arbisoft.com>
-  description: |
-    Manage your Tutor-powered Open edX installation from the browser.
-
 - name: xqueue
   src: -e git+https://github.com/overhangio/tutor-xqueue.git@main#egg=tutor-xqueue
   url: https://github.com/overhangio/tutor-xqueue
