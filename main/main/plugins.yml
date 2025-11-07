@@ -107,6 +107,15 @@
     edX LMS/CMS. This makes it very easy to launch student-editable code editors rights
     in your courses.
 
+- name: livedeps
+  src: -e git+https://github.com/overhangio/tutor-livedeps.git@main#egg=tutor-livedeps
+  url: https://github.com/overhangio/tutor-livedeps
+  author: Edly <hello@edly.io>
+  maintainer: Muhammad Labeeb <muhammad.labeeb@arbisoft.com>
+  description: |
+    Real time python package installation for Open edX
+    This is a plugin for Tutor that provides real time python package installation for Open edX platforms. This means you do not need to rebuild the openedx image whenever you add a new package. This is achieved by storing these packages in Django storage and downloading them inside each LMS/CMS container.
+
 - name: mfe
   src: -e git+https://github.com/overhangio/tutor-mfe.git@main#egg=tutor-mfe
   url: https://github.com/overhangio/tutor-mfe
