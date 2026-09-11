@@ -36,7 +36,7 @@ This index references plugins from 3rd-party individuals and companies. New entr
 
 New "plugins.yml" files will be created for every release, every six months. Plugin maintainers are expected to open new pull requests to add their plugins to the contrib index shortly after each release.
 
-# Development
+## Development
 
 To test the validity of your changes to the plugin indexes, run:
 
@@ -46,7 +46,7 @@ Depending on your environment, you might have to install test requirements:
 
     make test-requirements
 
-# Troubleshooting
+## Troubleshooting
 
 These indexes are maintained by [Edly](https://edly.io). Community support is available from the official [Open edX forum](https://discuss.openedx.org).
 
