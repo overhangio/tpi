@@ -13,3 +13,43 @@
     Aspects is customizable from end-to-end, allowing you to add new data sources, new dashboards,
     and everything in between. It scales down to small installations and up to massive ones, and is
     designed to be easy to install and maintain.
+
+- name: n8n
+  src: tutor-contrib-n8n>=1.0.0,<2.0.0
+  url: https://github.com/Abstract-Tech/tutor-contrib-n8n
+  author: Abstract Technology GmbH <info@abstract-technology.de>
+  maintainer: Abstract Technology GmbH <info@abstract-technology.de>
+  description: |
+    n8n instance and config next to your Open edX platform.
+
+    This plugin adds a self-hosted n8n instance to your Tutor-based Open edX platform
+    (following the official n8n-docker-caddy deployment model, adapted to Tutor's own
+    Caddy reverse proxy), and installs openedx-events-2-n8n in the LMS/CMS image so that
+    registration, enrollment, and grade-change Open edX Events are forwarded to n8n webhooks.
+
+    Note: only the docker-compose deployment path is tested; Kubernetes deployment is untested.
+
+- name: maintenance
+  src: tutor-contrib-maintenance>=1.0.0,<2.0.0
+  url: https://github.com/Abstract-Tech/tutor-contrib-maintenance
+  author: Abstract Technology GmbH <info@abstract-technology.de>
+  maintainer: Abstract Technology GmbH <info@abstract-technology.de>
+  description: |
+    Easy Maintenance Mode for Tutor and Open edX.
+
+    A Tutor plugin that puts a "down for maintenance" page in front of an Open edX platform,
+    on demand, without needing to know every domain your other Tutor plugins have registered
+    with Caddy. `tutor maintenance on`/`off` hot-swap the running Caddy config through its
+    admin API, so the main Caddyfile is never patched.
+
+- name: mailpit
+  src: tutor-contrib-mailpit>=0.1.0,<0.2.0
+  url: https://github.com/Abstract-Tech/tutor-contrib-mailpit
+  author: Abstract Technology GmbH <support@abstract-technology.de>
+  maintainer: Abstract Technology GmbH <support@abstract-technology.de>
+  description: |
+    Mailpit for email sending tests.
+
+    A plugin for more convenient email testing using Mailpit. Once enabled, check the
+    Mailpit interface at http://localhost:8025 for outgoing emails. Note that the plugin
+    only works in the dev environment.
