@@ -49,3 +49,16 @@
     A plugin for more convenient email testing using Mailpit. Once enabled, check the
     Mailpit interface at http://localhost:8025 for outgoing emails. Note that the plugin
     only works in the dev environment.
+
+- name: asyntai
+  src: tutor-contrib-asyntai>=1.0.0,<2.0.0
+  url: https://asyntai.com/documentation/integrations/tutor/
+  author: Asyntai <hello@asyntai.com>
+  maintainer: Asyntai <hello@asyntai.com>
+  description: |
+    AI chat assistant for Open edX learners.
+
+    This plugin adds the Asyntai chat assistant (https://asyntai.com) to the LMS
+    pages and the learner micro-frontends of your Tutor platform. It answers
+    learner questions from your own content. Set your widget ID with
+    ASYNTAI_WIDGET_ID, then build the mfe image. Studio stays without the widget.
